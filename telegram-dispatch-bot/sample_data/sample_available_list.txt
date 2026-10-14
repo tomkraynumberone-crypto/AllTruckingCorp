@@ -1,0 +1,8 @@
+Example output of the /available command (one message, entries separated by "; "):
+
+Mohammad Ibrahim, 19237; Chris Lee, 60007; Juan Miguel, will be available 2pm; Sam Carter, will be available tomorrow morning
+
+Format rules:
+  available now + ZIP known  ->  Driver Name, ZIPCODE
+  available later            ->  Driver Name, will be available TIME
+Drivers who are loaded, not available, or have no ZIP yet are not listed.

@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Database files and backups
+data/
+backups/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Logs
+logs/
+*.log

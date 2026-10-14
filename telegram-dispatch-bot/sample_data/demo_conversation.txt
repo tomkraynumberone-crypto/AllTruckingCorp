@@ -1,0 +1,23 @@
+  Mohammad Ibrahim: Good morning boss, available
+    [BOT] What's your current ZIP code? I'll check available loads for you.
+  Mohammad Ibrahim: 19237
+    [BOT] Got it! Checking loads for you. 👍
+    [BOT -> private message to dispatcher] ✅ Driver available: Mohammad Ibrahim, 19237
+  Juan Miguel: I'll be empty at 2 PM
+    [BOT] Thanks! I'll update your availability for 2pm.
+  Chris Lee: Any loads available?
+  Chris Lee: I'm empty in 60007
+    [BOT] Got it! Checking loads for you. 👍
+    [BOT -> private message to dispatcher] ✅ Driver available: Chris Lee, 60007
+  Sam Carter: Not yet
+    [BOT] No problem! What time do you expect to be empty and ready for a load?
+  Sam Carter: Tomorrow morning
+    [BOT] Thanks! I'll update your availability for tomorrow morning.
+  Chris Lee: I got a load
+    [BOT] Got it, thanks for letting us know. I've taken you off the available list.
+  boss: /available
+    [BOT] Mohammad Ibrahim, 19237; Juan Miguel, will be available 2pm; Sam Carter, will be available tomorrow morning
+  boss: /status
+    [BOT] Available now (ZIP confirmed): 1
+Expected to be available later: 2
+Not available / no update: 1
